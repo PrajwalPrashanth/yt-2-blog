@@ -1,0 +1,18 @@
+[project]
+name = "yt-2-blog"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "click>=8.1.8",
+    "dotenv>=0.9.9",
+    "huggingface-hub>=0.29.1",
+    "jupyter>=1.1.1",
+    "langchain>=0.3.19",
+    "langchain-anthropic>=0.3.8",
+    "langchain-google-genai>=2.0.11",
+    "langchain-openai>=0.3.7",
+    "markdown>=3.7",
+    "youtube-transcript-api>=0.6.3",
+]
